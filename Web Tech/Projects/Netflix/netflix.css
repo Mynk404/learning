@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 110vh;
+    width: 100%;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b2c3e95b-b7b5-4bb7-a883-f4bfc7472fb7/19fc1a4c-82db-4481-ad08-3a1dffbb8c39/IN-en-20240805-POP_SIGNUP_TWO_WEEKS-perspective_WEB_24a485f6-1820-42be-9b60-1b066f1eb869_large.jpg");
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color:radial-gradient(white, black);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    height: 100px;
+    width: 100%;
+    padding: 20px 40px ;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    height: 90px;
+    width: 190px;
+   
+    
+}
+.topbutton{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.topbutton select{
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: 1px solid rgb(196, 194, 194);
+
+}
+.topbutton button{
+    height: 35px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.content{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+.content h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.content h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content form>h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content>form>input{
+    height: 60px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    opacity: 0.9;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(150, 148, 148);
+}
+.content>form>button{
+    height: 60px;
+    width: 210px;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.contain2{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 8px solid grey;
+    border-bottom: 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.para{
+    height: 80%;
+    width: 40%;
+    /* background-color: aqua; */
+    margin-left: 30px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.para h1{
+    text-align: start;
+   font-size: 55px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+   margin-bottom: 29px;
+}
+.para h4{
+    text-align: start;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.picture{
+    height: 80%;
+    width: 50%;
+    margin-left: 5px;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picture video{
+    width: 84%;
+    height: 75%;
+    padding-bottom: 12px;
+    padding-right: 5px;
+    
+}
+.contain3{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.pic{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.pic img{
+    height: 100%;
+    width: 100;
+    
+}
+.para2{
+    height: 80px;
+    width: 45%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para2 h1{
+    
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.para2 h5{
+    text-align: start;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contain4{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.para3{
+    height: 80px;
+    width: 45%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.para3 h1{
+    
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.para3 h5{
+    text-align: start;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pic2{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.pic2 img{
+    height: 100%;
+    width: 100;
+    
+}
+.contain5{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.pic3{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    
+}
+.pic3 img{
+    height: 100%;
+    width: 100;
+    
+}
+.para4{
+    height: 80px;
+    width: 45%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.para4 h1{
+    
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.para4 h5{
+    text-align: start;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    color: rgb(139, 137, 137);
+    border-bottom: 8px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+.last{
+    height: 85%;
+    width: 85%;
+    padding-left: 20px;
+    
+}
+.last p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+.last p span{
+    text-decoration: underline;
+}
+.last table{
+    height: 50%;
+    width: 90%;
+    margin-bottom: 20px;
+}
+table a{
+    color: rgb(145, 140, 140);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.last select{
+    height: 35px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: rgb(163, 161, 161);
+    background-color: black;
+    border: 1px solid rgb(196, 194, 194);
+
+}
+.last h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}

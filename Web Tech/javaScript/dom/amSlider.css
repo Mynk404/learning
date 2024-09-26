@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+}
+.slider img{
+    width: 100vw;
+    height: 280px;
+}
+.slider{
+    display: flex;
+
+}

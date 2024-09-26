@@ -1,0 +1,26 @@
+h1{
+    background-color: rgb(0, 52, 52);
+    color: antiquewhite;
+    font-size: 50px;
+}
+p{
+    font-size: 22px;
+    background-color: rgb(103, 4, 103);
+    color: yellow;
+}
+body{
+    background-image: url("./pizza.jpg");
+    background-size: cover;
+    /* background-repeat: repeat-y; (to repeat the image in any axis)*/
+    
+}
+button{
+    height: 50px;
+    width: 200px;
+    background: linear-gradient(rgb(0, 128, 53),cyan,white);
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    color: purple;
+    cursor: grab;
+}

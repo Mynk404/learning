@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+}
+.forall{
+    padding: 10px 100px;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.stories{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.stories>svg{
+    border: 2px solid black;
+    padding: 2px 2px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.stories>h4{
+    transition: 200ms;
+}
+.stories>h4:hover{
+    text-decoration: underline;
+}
+.cardbody{
+    display: flex;
+   
+    justify-content: space-evenly;
+    padding: 40px 0px;
+}
+.imgclass>img{
+    height: 300px;
+    width: 280px;
+}
+.ctexts{
+    padding: 20px 5px;
+    width: 250px;
+
+}
+.ctexts>h5{
+    background-color: black;
+    color: white;
+    width: 170px;
+    text-align: center;
+    font-size: 15px;
+    margin: 6px 0px;
+}
+.ctexts>h5:hover{
+    background-color: grey;
+    text-decoration: underline;
+}
+.ctexts>h3:hover{
+    text-decoration: underline;
+}
+.ctexts>p{
+    text-align: left;
+}
+.imgclass2>img{
+    height: 200px;
+    width: 360px;
+}
+.butt>.green{
+    background-color: green;
+    color: white;
+    width: 100px;
+    margin: 2px;
+}
+.butt>.black{
+    background-color: black;
+    color: white;
+    width: 80px;
+    margin: 2px;
+}
+.butt{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width: 455px){
+    .cardbody{
+        flex-direction: column;
+        
+    }
+    .forall{
+        padding: 20px;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="">
+            Name: 
+        </label>
+        <input required type="text" placeholder="Enter your name here"> <br><br>
+        <label for="">
+            Age: 
+        </label>
+        <input required type="number">
+        <br><br>
+
+        <label for="">
+            DOB :
+        </label>
+        <input type="date">  <br><br>
+        <label for="">
+            Preferred time of visit:
+        </label>
+        <input required type="time">
+        <br><br>
+        <label for="">
+            Email :
+        </label>
+        <input required type="email"> <br><br>
+        <label for="">
+            Password:
+        </label>
+        <input required type="password"> <br><br>
+        <label for="">
+            Phone:
+        </label>
+        <input required type="tel" pattern="[0-9]{10}">
+        <br><br>
+        <label for="">
+            Address : 
+        </label>
+        <textarea required rows="4" cols="20" placeholder="enter your complete address here"></textarea>
+        <br><br>
+        <label for="">
+            <b>Gender :</b>
+        </label>
+        <input type="radio" name="gender" id="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"> <label for="female">Female</label>
+        <input type="radio" name="gender" id="other"> <label for="other">Others</label>
+
+        <br><br>
+
+        <label for="">
+            Upload File : 
+        </label>
+        <input type="file">
+        <br><br>
+        
+            <label for="">
+                Degree : 
+            </label>
+        
+        
+            <select>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>BE</option>
+                <option>ME</option>
+            </select>
+        <br><br>
+        <dt>
+            <b>Documents:</b>
+        </dt>
+        
+        <dd>
+            <input type="checkbox" id="d1"> <label for="d1">Marks Sheet</label>
+            <input type="checkbox" id="d2"> <label for="d2">Driving license</label>
+            <input type="checkbox" id="d3"> <label for="d3">PAN card</label>
+        </dd>
+        <br><br>
+        <label for=""><b>Rate this Form</b></label><br>
+        <input type="range">
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

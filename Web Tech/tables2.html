@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <table border="" align="center" cellpadding="5" cellspacing="3" bgcolor="grey">
+        <caption><b>Spanning rows and columns</b></caption>
+        <tr>
+            <th colspan="4" bgcolor="cyan">Student</th>
+        </tr>
+        <tr bgcolor="cyan">
+            <th colspan="3">Details</th>
+            <th rowspan="2">Marks</th>
+        </tr>
+        <tr bgcolor="pink">
+            <td>ID</td>
+            <td>Name</td>
+            <td>Subject</td>
+        </tr>
+        <tr bgcolor="pink">
+            <td>1</td>
+            <td>Rohan</td>
+            <td>SQL</td>
+            <td rowspan="3" bgcolor="cyan">1*</td>
+        </tr>
+        <tr bgcolor="pink">
+            <td>2</td>
+            <td>Shalini</td>
+            <td>SQL</td>
+            
+        </tr>
+        <tr bgcolor="pink">
+            <td>3</td>
+            <td>Shambhu</td>
+            <td>SQL</td>
+            
+        </tr>
+        <caption align="bottom"><b>Merged rows and columns are in cyan rest are in pink.</b></caption>
+    </table>
+    
+</body>
+</html>
